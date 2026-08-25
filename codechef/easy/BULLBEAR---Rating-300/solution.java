@@ -10,23 +10,17 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t-->0){
-		    int[] arr = new int[3];
-		    for(int i =0; i<3;i++){
-		        arr[i]=sc.nextInt();
+		    int buy = sc.nextInt();
+		    int shell = sc.nextInt();
+		    if(buy>shell){
+		        System.out.println("LOSS");
 		    }
-		    int max=arr[0];
-		    for(int i =0; i<3;i++){
-		        if(max<arr[i]){
-		            max=arr[i];
-		        }
+		    else if(buy==shell){
+		        System.out.println("NEUTRAL");
 		    }
-		    int max2=Integer.MIN_VALUE;
-		    for(int j =0; j<3;j++){
-		        if(max2<arr[j] && arr[j]<max){
-		            max2=arr[j];
-		        }
+		    else{
+		        System.out.println("PROFIT");
 		    }
-		    System.out.println(max2);
 		}
 
 	}
