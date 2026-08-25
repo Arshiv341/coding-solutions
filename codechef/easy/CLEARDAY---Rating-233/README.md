@@ -57,7 +57,7 @@ If there are $3$ rainy days and $4$ cloudy days, then the remaining $7-3-4=0$ da
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T18:57:09.809Z  
+**Submitted:** 2026-08-25T18:57:41.243Z  
 
 ```java
 import java.util.*;
