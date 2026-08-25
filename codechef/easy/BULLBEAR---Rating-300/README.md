@@ -4,14 +4,61 @@
 
 ## Problem
 
-_Description not available._
+### Bull or Bear
+
+Chef is on his way to become the new big bull of the stock market but is a bit weak at calculating whether he made a profit or a loss on his deal.
+
+Given that Chef bought the stock at value $X$ and sold it at value $Y$. Help him calculate whether he made a profit, loss, or was it a neutral deal.
+
+### Input Format
+- The first line of input will contain a single integer $T$, denoting the number of test cases.
+- Each test case consists of a single line of input containing two space-separated integers $X$ and $Y$, denoting the value at which Chef bought and sold the stock respectively.
+### Output Format
+
+For each test case, output `PROFIT` if Chef made a profit on the deal, `LOSS` if Chef incurred a loss on the deal, and `NEUTRAL` otherwise.
+
+The checker is case-insensitive so answers like `pROfiT`, `profit`, and `PROFIT` would be considered the same.
+
+### Constraints
+- $1 \leq T \leq 500$
+- $1 \leq X, Y \leq 100$
+### Sample 1:
+Input
+Output
+
+```
+4
+4 2
+8 8
+3 4
+2 1
+
+```
+
+```
+LOSS
+NEUTRAL
+PROFIT
+LOSS
+
+```
+
+### Explanation:
+
+ **Test case $1$:**  Since the cost price is greater than the selling price, Chef made a loss in the deal.
+
+ **Test case $2$:**  Since the cost price is equal to the selling price, the deal was neutral.
+
+ **Test case $3$:**  Since the cost price is less than the selling price, Chef made a profit in the deal.
+
+ **Test case $4$:**  Since the cost price is greater than the selling price, Chef made a loss in the deal.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T21:43:32.394Z  
+**Submitted:** 2026-08-25T21:48:27.223Z  
 
 ```java
 import java.util.*;
@@ -26,23 +73,17 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t-->0){
-		    int[] arr = new int[3];
-		    for(int i =0; i<3;i++){
-		        arr[i]=sc.nextInt();
+		    int buy = sc.nextInt();
+		    int shell = sc.nextInt();
+		    if(buy>shell){
+		        System.out.println("LOSS");
 		    }
-		    int max=arr[0];
-		    for(int i =0; i<3;i++){
-		        if(max<arr[i]){
-		            max=arr[i];
-		        }
+		    else if(buy==shell){
+		        System.out.println("NEUTRAL");
 		    }
-		    int max2=Integer.MIN_VALUE;
-		    for(int j =0; j<3;j++){
-		        if(max2<arr[j] && arr[j]<max){
-		            max2=arr[j];
-		        }
+		    else{
+		        System.out.println("PROFIT");
 		    }
-		    System.out.println(max2);
 		}
 
 	}
