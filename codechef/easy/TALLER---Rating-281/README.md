@@ -49,7 +49,7 @@ A
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T19:58:14.164Z  
+**Submitted:** 2026-08-25T20:00:42.074Z  
 
 ```java
 import java.util.*;
@@ -61,6 +61,18 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0){
+		    int A=sc.nextInt();
+		    int B=sc.nextInt();
+		    if(A>B){
+		        System.out.println("A");
+		    }
+		    else{
+		        System.out.println("B");
+		    }
+		}
 
 	}
 }
