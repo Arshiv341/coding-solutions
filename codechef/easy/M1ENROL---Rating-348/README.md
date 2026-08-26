@@ -1,0 +1,45 @@
+# M1ENROL - Rating 348
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** Java  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-08-26T17:43:43.958Z  
+
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0){
+		    int x = sc.nextInt();
+		    if(x<7){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
+		}
+
+	}
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/M1ENROL)
