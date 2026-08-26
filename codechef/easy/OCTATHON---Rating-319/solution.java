@@ -8,11 +8,15 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		while(t-->0){
-		    int w = sc.nextInt();
-		    int u = sc.nextInt();
-		    System.out.println((w*7)-u);
+		int x = sc.nextInt();
+		if(x<3){
+		    System.out.println("GOLD");
+		}
+		else if(x>=3 && x<6){
+		    System.out.println("SILVER");
+		}
+		else{
+		    System.out.println("BRONZE");
 		}
 
 	}
