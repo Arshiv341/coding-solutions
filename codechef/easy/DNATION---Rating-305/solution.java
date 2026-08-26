@@ -12,12 +12,7 @@ class Codechef
 		while(t-->0){
 		    int x = sc.nextInt();
 		    int y = sc.nextInt();
-		    if(x-y>0){
-		        System.out.println(x-y);
-		    }
-		    else{
-		        System.out.println(0);
-		    }
+		    System.out.println(y-x);
 		}
 
 	}
