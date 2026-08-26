@@ -11,12 +11,13 @@ class Codechef
 		int t = sc.nextInt();
 		while(t-->0){
 		    int x = sc.nextInt();
-		    if(x>98){
+		    if(x<7){
 		        System.out.println("YES");
 		    }
 		    else{
 		        System.out.println("NO");
 		    }
 		}
+
 	}
 }
