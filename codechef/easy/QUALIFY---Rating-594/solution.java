@@ -17,7 +17,7 @@ class Codechef
 		        System.out.println("QUALIFY");
 		    }
 		    else{
-		        System.out.println("NOTQULIFY");
+		        System.out.println("NOTQUALIFY");
 		    }
 		}
 
