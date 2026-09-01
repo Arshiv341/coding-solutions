@@ -65,7 +65,7 @@ Chef had prepared the topics: $4, 6, 8$. Chef gets to speak on the topic: $5$. S
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T14:47:01.869Z  
+**Submitted:** 2026-09-01T14:43:08.804Z  
 
 ```java
 import java.util.*;
@@ -78,11 +78,15 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc= new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-		int x = sc.nextInt();
-		if(a==x || b == x|| c==x){
+		int count =0;
+		int[] arr = new int[4];
+		for(int i =0; i<4;i++){
+		    arr[i]=sc.nextInt();
+		    if(arr[i]<4){
+		        count++;
+		    }
+		}
+		if(count>=3){
 		    System.out.println("YES");
 		}
 		else{
