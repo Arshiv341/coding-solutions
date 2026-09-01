@@ -63,7 +63,7 @@ Not Good
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T22:06:54.604Z  
+**Submitted:** 2026-09-01T22:11:09.420Z  
 
 ```java
 import java.util.*;
@@ -79,7 +79,7 @@ class Codechef
 		int t = sc.nextInt();
 		while(t-->0){
 		    int x = sc.nextInt();
-		    if(x%2==0){
+		    if(x%4==0){
 		        System.out.println("GOOD");
 		    }
 		    else{
