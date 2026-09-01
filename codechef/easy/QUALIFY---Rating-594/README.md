@@ -58,7 +58,7 @@ Qualify
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T22:18:48.694Z  
+**Submitted:** 2026-09-01T22:29:13.478Z  
 
 ```java
 import java.util.*;
@@ -71,17 +71,20 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		int t= sc.nextInt();
+		int t=sc.nextInt();
 		while(t-->0){
-		    int x= sc.nextInt();
-		    int a = sc.nextInt();
-		    int b = sc.nextInt();
-		    if(x<=(a+(b*2))){
-		        System.out.println("QUALIFY");
-		    }
-		    else{
-		        System.out.println("NOTQUALIFY");
-		    }
+		     int n = sc.nextInt();
+		     int p = sc.nextInt();
+		     int c=0;
+		     int[]arr=new int[n];
+		     for(int i=0;i<n;i++){
+		         arr[i]=sc.nextInt();
+		         if(arr[i]>=p){
+		             c++;
+		         }
+		     }
+		     System.out.println(p);
+		    
 		}
 
 	}
