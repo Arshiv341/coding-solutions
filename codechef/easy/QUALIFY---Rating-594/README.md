@@ -58,7 +58,7 @@ Qualify
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T22:17:47.545Z  
+**Submitted:** 2026-09-01T22:17:17.049Z  
 
 ```java
 import java.util.*;
