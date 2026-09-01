@@ -65,7 +65,7 @@ Chef had prepared the topics: $4, 6, 8$. Chef gets to speak on the topic: $5$. S
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T14:43:49.406Z  
+**Submitted:** 2026-09-01T14:43:01.799Z  
 
 ```java
 import java.util.*;
