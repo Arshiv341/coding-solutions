@@ -11,7 +11,7 @@ class Codechef
 		int t = sc.nextInt();
 		while(t-->0){
 		    int x = sc.nextInt();
-		    if(x%2==0){
+		    if(x%4==0){
 		        System.out.println("GOOD");
 		    }
 		    else{
