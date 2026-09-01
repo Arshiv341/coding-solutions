@@ -58,7 +58,7 @@ Qualify
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T22:18:37.623Z  
+**Submitted:** 2026-09-01T22:15:25.621Z  
 
 ```java
 import java.util.*;
@@ -74,14 +74,9 @@ class Codechef
 		int t= sc.nextInt();
 		while(t-->0){
 		    int x= sc.nextInt();
-		    int a = sc.nextInt();
+		    int a = sc.extInt();
 		    int b = sc.nextInt();
-		    if(x<=(a+(b*2))){
-		        System.out.println("QUALIFY");
-		    }
-		    else{
-		        System.out.println("NOTQULIFY");
-		    }
+		    
 		}
 
 	}
