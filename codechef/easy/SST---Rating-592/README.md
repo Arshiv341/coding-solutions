@@ -60,7 +60,7 @@ Therefore he can accept any of the deal.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T22:01:23.103Z  
+**Submitted:** 2026-09-01T22:01:45.685Z  
 
 ```java
 import java.util.*;
