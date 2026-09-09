@@ -68,7 +68,7 @@ It's better to buy from the second shop, spending $53$ coins.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:17:29.351Z  
+**Submitted:** 2026-09-09T16:16:53.341Z  
 
 ```java
 import java.util.*;
