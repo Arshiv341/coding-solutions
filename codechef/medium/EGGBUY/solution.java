@@ -6,15 +6,7 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc = new Scanner(System.in);
-	    int x= sc.nextInt();
-	    int y = sc.nextInt();
-	    int f = sc.nextInt();
-	    if(x<=y){
-	        System.out.println(x*12);
-	    }
-	    else{
-	        System.out.println(y*12);
-	    }
+	    
+
 	}
 }
