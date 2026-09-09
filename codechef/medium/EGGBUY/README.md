@@ -68,7 +68,7 @@ It's better to buy from the second shop, spending $53$ coins.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:17:11.342Z  
+**Submitted:** 2026-09-09T16:19:53.985Z  
 
 ```java
 import java.util.*;
@@ -83,6 +83,12 @@ class Codechef
 	    int x= sc.nextInt();
 	    int y = sc.nextInt();
 	    int f = sc.nextInt();
+	    if(x*12<y*12){
+	        System.out.println(x*12);
+	    }
+	    else{
+	        System.out.println(y*12 +f);
+	    }
 	}
 }
 
