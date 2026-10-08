@@ -52,9 +52,9 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.3 MB  
-**Submitted:** 2026-10-08T18:33:28.638Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 42.9 MB (beats 67.53%)  
+**Submitted:** 2026-10-08T18:33:38.704Z  
 
 ```java
 /**
@@ -79,10 +79,11 @@ class Solution {
         return sum;
     }
     public void getleafsum(TreeNode root, int currNum){
-        currNum=currNum*10+ root.val;
+        
         if(root==null){
             return;
         }
+        currNum=currNum*10+ root.val;
         if(root.left==null && root.right==null){
             sum+=currNum;
             return;
