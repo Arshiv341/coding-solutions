@@ -20,10 +20,11 @@ class Solution {
         return sum;
     }
     public void getleafsum(TreeNode root, int currNum){
-        currNum=currNum*10+ root.val;
+        
         if(root==null){
             return;
         }
+        currNum=currNum*10+ root.val;
         if(root.left==null && root.right==null){
             sum+=currNum;
             return;
