@@ -48,8 +48,8 @@ You need to output 2.
 
 **Language:** Java  
 **Runtime:** 15 ms (beats 60.87%)  
-**Memory:** 50.6 MB (beats 99.29%)  
-**Submitted:** 2026-10-24T14:19:44.638Z  
+**Memory:** 51 MB (beats 89.40%)  
+**Submitted:** 2026-10-24T14:20:03.691Z  
 
 ```java
 class Solution {
