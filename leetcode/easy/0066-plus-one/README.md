@@ -56,7 +56,7 @@ Thus, the result should be [1,0].
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
 **Memory:** 42.7 MB (beats 96.17%)  
-**Submitted:** 2026-10-26T21:08:14.082Z  
+**Submitted:** 2026-10-26T21:09:10.873Z  
 
 ```java
 class Solution {
