@@ -47,17 +47,18 @@ Output: 4
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 41.2 MB  
-**Submitted:** 2026-10-26T20:56:42.498Z  
+**Memory:** 42.1 MB  
+**Submitted:** 2026-10-26T20:58:26.603Z  
 
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
+        if(nums[0]>=target) return 0;
         int idx=1;
         int prev=0;
         while(idx<nums.length){
-            if(target>=nums[prev] && target<nums[idx]){
-                return prev;
+            if(target>nums[prev] && target<=nums[idx]){
+                return idx;
             }
             prev++;
             idx++;
